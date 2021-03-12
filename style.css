@@ -1,5 +1,5 @@
-body {
-  background-color: black;
+.dark {
+  background: black;
 }
 
 .title {
@@ -8,17 +8,17 @@ body {
   display: block;
   margin: 0 auto;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 0.3em;
+  font-size: 25px;
 }
 
 .img-space {
-  padding-bottom: 1em;
+  padding: 1em;
   display: block;
   margin: 0 auto;
 }
 
 .bottom-bar {
-  background: #000;
   font-size: 0.9em;
   text-align: center;
   color: white;
