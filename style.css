@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.img-space {
+  padding-bottom: 1em;
+  display: block;
+  margin: 0 auto;
+}
+
+.bottom-bar {
+  background: #000;
+  font-size: 0.9em;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}

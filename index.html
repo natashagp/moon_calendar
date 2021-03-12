@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <title>Calendário Lunar 2021</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1 class="title">Calendário Lunar 2021</h1>
+  <section>
+      <img class="img-space img-first" src="/images/janeiro.png" alt="Janeiro">
+      <img class="img-space" src="/images/fevereiro.png" alt="Fevereiro">
+      <img class="img-space" src="/images/marco.png" alt="Março">
+      <img class="img-space img-first" src="/images/abril.png" alt="Abril">
+      <img class="img-space" src="/images/maio.png" alt="Maio">
+      <img class="img-space" src="/images/junho.png" alt="Junho">
+      <img class="img-space img-first" src="/images/julho.png" alt="Julho">
+      <img class="img-space" src="/images/agosto.png" alt="Agosto">
+      <img class="img-space" src="/images/setembro.png" alt="Setembro">
+      <img class="img-space img-first" src="/images/outubro.png" alt="Outubro">
+      <img class="img-space" src="/images/novembro.png" alt="Novembro">
+      <img class="img-space" src="/images/dezembro.png" alt="Dezembro">
+  </section>
+  <footer>
+    <section class="bottom-bar">
+        <p>&copy; 2021 | Todos os direitos reservados</p>
+    </section>
+</footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>
+</body>
+</html>
